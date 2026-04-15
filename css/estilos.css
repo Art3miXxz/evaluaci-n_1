@@ -1,0 +1,278 @@
+html, body, header, nav, div, section, ul, li, a, p {
+    margin: 0;
+    padding: 0;
+    font-family: Calibri, Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #bcc5bcc5;
+    padding: 20px;
+}
+
+header {
+    width: 95%;
+    margin: 0 auto 20px auto;
+    overflow: hidden; 
+}
+
+.bloque-marca {
+    float: left;
+    width: 50%;
+}
+
+.logo-recuadro {
+    float: left;
+    border: 3px solid black;
+    width: 100px;
+    padding: 5px;
+}
+
+.logo-recuadro img {
+    width: 100%;
+}
+
+.nombre-empresa {
+    float: left;
+    padding-left: 20px;
+    padding-top: 18px; 
+    font-size: 40px;
+    font-weight: bold;
+    color: #004d40;
+}
+
+nav {
+    float: right;
+    padding-top: 25px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #0081c9;
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: 18px;
+}
+
+main {
+    width: 95%;
+    margin: 0 auto;
+    clear: both;
+}
+
+section {
+    clear: both;
+    margin-bottom: 25px;
+}
+
+.banner-principal {
+    border: 3px solid black;
+    text-align: center;
+}
+
+.banner-principal img {
+    width: 100%;
+    max-height: 200px; 
+    display: block;
+    object-fit: cover;
+}
+
+.seccion-info {
+    border: 3px solid black;
+    padding: 20px;
+    overflow: hidden; 
+}
+
+.caja-gerente {
+    float: left;
+    width: 25%; 
+    border: 3px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.caja-gerente img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.caja-datos {
+    float: right;
+    width: 72%;
+    border: 3px solid black;
+    padding: 50px;
+    min-height: 431px;
+}
+
+.caja-datos p {
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+
+.seccion-representativa {
+    border: 3px solid black;
+    padding: 25px;
+    text-align: center;
+}
+
+.recuadro-interno {
+    border: 3px solid black;
+    padding: 15px;
+    display: inline-block;
+    width: 90%;
+}
+
+.recuadro-interno img {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+footer {
+    clear: both;
+    border: 3px solid black;
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-weight: bold;
+}
+
+
+/* login */
+.seccion-login {
+    border: 3px solid black;
+    padding: 40px;
+    text-align: center;
+    clear: both;
+}
+
+.caja-login-externa {
+    width: 60%; 
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.caja-login-interna {
+    border: 3px dashed black; 
+    padding: 30px;
+    display: inline-block;
+    width: 100%;
+}
+
+.caja-login-interna h1 {
+    font-size: 32px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.campo {
+    text-align: left;
+    width: 80%;
+    margin: 0 auto 20px auto;
+}
+
+.campo label {
+    display: block;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.campo input {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 3px solid black;
+}
+
+
+.contenedor-boton {
+    margin-top: 30px;
+}
+
+.btn-login {
+    background-color: #cccccc; 
+    border: 3px solid black;
+    border-radius: 20px; 
+    padding: 10px 40px;
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #aaaaaa;
+}
+
+
+/* Galeria */
+.seccion-galeria {
+    clear: both;
+    border: 3px solid black;
+    padding: 20px;
+    overflow: hidden; 
+    background-color: white;
+}
+
+.caja-producto {
+    float: left;
+    width: 30%; 
+    margin: 1.6%; 
+    border: 3px solid black;
+    padding: 15px;
+    height: 600px; 
+}
+
+.caja-producto p {
+    font-size: 16px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+}
+
+.recuadro-imagen-prod { 
+    border: 3px solid black;
+    height: 200px;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.recuadro-imagen-prod img {
+    max-width: 80%;
+    max-height: 90%; 
+    display: inline-block;
+    padding: 5px;
+}
+
+.bloque-cantidad {
+    text-align: right;
+    margin-bottom: 15px;
+}
+
+.bloque-cantidad label {
+    font-weight: bold;
+}
+
+.input-cantidad {
+    width: 50px;
+    border: 2px solid black;
+    padding: 3px;
+    text-align: center;
+}
+
+.descripcion-caja {
+    background-color: #ebeaea;
+    border: 3px solid black;
+    padding: 10px;
+    font-size: 14px;
+    height: 150px; 
+    overflow-y: auto; 
+    text-align: justify;
+}
